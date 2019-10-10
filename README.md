@@ -1,38 +1,33 @@
 # CPE 1040 - Introduction to Computer Engeneering
 
-## Assignment: Migrating micro:bit Programming from Blocks to JavaScript (Makeup)
+## Assignment: Creating a soil sensor extension for MakeCode for the micro:bit
 
 ### 1. Summary
 
-This assignment asks you to go complete the Final Project for the [Intro to CS course with Blocks](https://makecode.microbit.org/courses/csintro) for the micro:bit, in JavaScript, following the [criteria](#criteria) below. This assignment is submitted through Github.
+This is not an assignment yet. It is a chance for you to tinker on your own with what will be assigned for next week. You have been provided with a pink anti-static bag containing:
+  1. A small breadboard.
+  2. A breadboard to micro:bit connector, already connected to the breadboard.
+  3. A SparkFun soil sensor with three wires.
+  
+You will follow step-by-step instructions that will create an extension for MakeCode that will allow us to use the soil sensor data in our micro:bit programs. The extension will be added to MakeCode as an external package through the _Extensions_ tab.
 
-### 2. Criteira
+### 2. Soil sensor care
 
-#### 2.1 Requirements
-1. The file should have a name and the `.js` file extension.
-2. A project [description](#description) should be included in this [README](README.md) file.	
-
-#### 2.2 Code quality
-1. The program should have proper indentation.
-2. Every block of code should contain inline comments, briefly describing its purpose and functionality.	
-3. The program should have good structure, with asynchronous and synchronous code blocks properly differentiated. **Note:** You cannot have more than one `forever` loop.
-4. Variables should be named in either of the following styles:
-   1. `variable_name_of_underscore_delimited_lower_case_words`, or
-   2. `variableNameInCamelCase`
-
-#### 2.3 JavaScript
-1. Variables should be declared with [full static data types](https://makecode.microbit.org/javascript/types).	
-2. Programmatic functionality should be encapsulated in [functions](https://makecode.microbit.org/javascript/functions), and, optionally for **bonus** points, [classes](https://makecode.microbit.org/javascript/classes).	
-3. Functions in JavaScript are [1st class objects](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function). All event constructs like `onButtonPressed` and `onGesture` take functions as arguments.	
-4. A maximum variety of JS language constructs (loops, conditionals, various operators, encapsulations, event handling, etc) should be used.
-
-#### 2.4 micro:bit			
-1. Use of buttons	and/or guestures.
-2. Sensible display update.
-3. Non-trivial functionality.	
-4. Control complexity.
+1. Do not power continously.
+2. Do not put directly into water.
+3. If you don't have a pot of soil, use a cup of moistened cotton.
 
 ## Resources
+
+### SparkFun soil sensor
+
+1. Sensor hookup [guide](https://learn.sparkfun.com/tutorials/soil-moisture-sensor-hookup-guide). Although this provides an example using Arduino, there is a lot of good information for the sensor.
+
+2. Electrical [schematic](https://cdn.sparkfun.com/datasheets/Sensors/Biometric/SparkFun_Soil_Moisture_Sensor.pdf), showing how the sensor is really a transistor with the two probes regulating the conductivity of the base.
+
+3. Instructions for creating the extension [package](https://learn.sparkfun.com/tutorials/how-to-create-a-makecode-package-for-microbit/all).
+
+4. SparkFun [product](https://www.sparkfun.com/products/13322) listing and documentation.
 
 ### micro:bit 
 
@@ -77,16 +72,3 @@ This assignment asks you to go complete the Final Project for the [Intro to CS c
 6. Extensive and detailed [JS tutorial](https://javascript.info/), with some advanced material thrown in. _**I like this one!**
 
 7. The most authoritative JS resource on the Web, including tutorials and reference, by [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
-
----
-
-### Description
-
-#### Goal
-TODO
-
-#### Design process
-TODO
-
-#### JS Constructs & objects
-TODO
