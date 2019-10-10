@@ -9,13 +9,16 @@ This is not an assignment yet. It is a chance for you to tinker on your own with
   2. A breadboard to micro:bit connector, already connected to the breadboard.
   3. A SparkFun soil sensor with three wires.
   
-You will follow step-by-step instructions that will create an extension for MakeCode that will allow us to use the soil sensor data in our micro:bit programs. The extension will be added to MakeCode as an external package through the _Extensions_ tab.
+![alt text](https://github.com/ivogeorg/starter-preliminary-soil-sensor-extension/blob/master/images/soil-sensor-baggy.jpg "Soil sensor and accessories")
 
-### 2. Soil sensor care
+Follow the step-by-step [instructions](https://learn.sparkfun.com/tutorials/how-to-create-a-makecode-package-for-microbit/all) to create an extension for MakeCode that will allow you to use the soil sensor data in a micro:bit program. The extension will be added to MakeCode as an external package through the _Extensions_ tab.
 
-1. Do not power continously.
-2. Do not put directly into water.
-3. If you don't have a pot of soil, use a cup of moistened cotton.
+### 2. (IMPORTANT) Soil sensor care
+
+1. Do not power continously, only when you want to take a measurement.
+2. Do not get the whole sensor wet.
+3. Do not dip the rods directly into water.
+4. If you don't have a pot of soil, use a cup of moistened cotton.
 
 ## Resources
 
